@@ -27,6 +27,11 @@ const router = createRouter({
           name: 'Customer Information',
           component: () => import('@/views/CustomerView.vue'),
         },
+        {
+          path: '/view-report',
+          name: 'View Report',
+          component: () => import('@/views/InquiryView.vue'),
+        },
       ],
     },
   ],
